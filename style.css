@@ -1,0 +1,117 @@
+*{
+  padding-top: 10;
+  margin: 0px;
+  border:0px;
+  box-sizing: border-box;
+}
+
+body html{
+  width: 100%;
+  height: 100%;
+}
+
+.Navbar{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+.Tutorial{
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-part{
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading h1{
+  color: #2F363E;
+  font-size:68px;
+  font-weight: 100;
+}
+
+.heading h1 span{
+  font-weight: 900;
+}
+.heading  p{
+    color: #707378;
+    margin-top: 28px;
+    font-size: 36px;
+}
+
+.Image_man{
+  width: 250px;
+  height: 190px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid black; */
+}
+
+.Image_Man img{
+  width: 85%;
+}
+
+.lower-part{
+  width: 90%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 46px;
+}
+
+.Social{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.Small{
+  width: 64px;
+}
+
+.Icon{
+  display: flex;
+  justify-content: space-between;
+  color:#333534;
+  font-size: 28px;
+  padding-top:20px;
+  padding-right: 60px;
+  padding-bottom: 0;
+}
+.Icon.img-icon{
+  width: 20px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.img-icon img{
+   width: 24px;
+   
+}
+
+.img-icon p{
+  font-size: 22px;
+  padding-top: 10px;
+}
+footer{
+  width: 100vw;
+  height: 5vh;
+  margin-top:22vh;
+  background-color:#E44C27;
+   
+}
